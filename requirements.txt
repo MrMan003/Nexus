@@ -1,0 +1,17 @@
+# NEXUS v5 — Python Dependencies
+# Install: pip install -r requirements.txt
+
+# ── Core AI ───────────────────────────────────────────────────
+google-generativeai>=0.5.0      # Gemini API
+
+# ── Simulation & Numerics ─────────────────────────────────────
+numpy>=1.26.0
+
+# ── API Server (for demo) ─────────────────────────────────────
+fastapi>=0.110.0
+uvicorn[standard]>=0.29.0
+pydantic>=2.6.0
+
+# ── Optional: Notebook Demo ───────────────────────────────────
+jupyter>=1.0.0
+matplotlib>=3.8.0
